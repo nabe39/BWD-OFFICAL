@@ -2,13 +2,15 @@
     padding: 0px 150px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    height: 50%;
 }
 
 #title {
-    font-size: 6rem;
+    font-size: 10rem;
     font-weight: 400;
     font-style: italic;
+    
 }
 
 #title > span:last-child {
@@ -20,10 +22,10 @@
     animation: text_transform 10s linear infinite;
 }
 
-#main_img {
+/* #main_img {
     width: 700px;
     height: 700px;
-}
+} */
 
 #main_img > img {
     width: 100%;
